@@ -5,8 +5,18 @@
 
 
 
-x <- seq(-pi,pi,0.01) #params: x, y, przeskok
-plot(x, sin(x), main = "sinus")
+#x <- seq(-pi,pi,0.2) #params: x, y, przeskok między rysowanymi punktami
+#plot(x, sin(x), main = "sinus")
+#plot(x, sin(x), main = "sinus", type="h")
+
+boxplot(Temp~Month, #wykres pudełkowy
+        data=airquality,
+        main="Different boxplots for each month",
+        xlab="Month Number",
+        ylab="Degree Fahrenheit",
+        col="orange",
+        border="black" #wpływa też na kolor linii mediany + wąsy
+)
 
 #mandaty <- c(235, 138, 42, 28, 16, 1)
 #partie <- c("PIS", "PO", "Kukiz'15", "Nowoczesna", "PSL", "mniejszość niemiecka")
