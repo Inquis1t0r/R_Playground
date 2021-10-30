@@ -9,7 +9,7 @@ test = "10"
 
 require(grDevices)
 pie(rep(1, 1024), col = rainbow(24), radius = 10) #col == vector 
-#values moga przekraczać zbiór danych bez błędu, powtarza dane 
+#values w rep moga przekraczać zbiór danych bez błędu, powtarza dane 
 
 test2 = 1000 ** 100
 print(test2)
