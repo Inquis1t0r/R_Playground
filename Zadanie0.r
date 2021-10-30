@@ -22,5 +22,4 @@
 ceny <- c(5.93, 5.97, 5.96, 5.94, 5.97, 5.95)
 woj <- c("dolnośląskie", "kujawsko-pomorskie", "lubelskie", "lubuskie", "łódzkie", "małopolskie")
 pie(ceny, labels = ceny, col = rainbow(length(woj)), main = "Średnie ceny paliw w Polsce") #Main: nagłowek
-legend("topright", woj, cex = 0.8,
-       fill = rainbow(length(x)))
+legend("topright", woj, cex = 0.8, fill = rainbow(length(woj))) #legenda, bo labels moze tylko jeden vektor mieć
