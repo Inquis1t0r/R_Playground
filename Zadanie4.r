@@ -1,1 +1,1 @@
-
+//TODO: Algorytmy 'Sztucznej inteligencji' 
